@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    p::first-line {
+      color: red;
+    }
+    p::first-letter {
+      color: yellow;
+    }
+    li::marker {
+      color: teal;
+    }
+    input::placeholder {
+      color: blue;
+    }
+    .content::before {
+      content: "앞에다 추가한 텍스트 요소";
+      color: brown;
+    }
+    .content::after {
+      content: "뒤에다 추가한 텍스트 요소";
+      color: blueviolet;
+    }
+  </style>
+</head>
+<body>
+<p>
+  퍼스트 라인 퍼스트 라인
+  퍼스트 라인 퍼스트 라인
+  퍼스트 라인 퍼스트 라인
+  퍼스트 라인 퍼스트 라인
+  퍼스트 라인 퍼스트 라인
+  퍼스트 라인 퍼스트 라인
+  퍼스트 라인 퍼스트 라인
+  퍼스트 라인 퍼스트 라인
+  퍼스트 라인 퍼스트 라인
+  퍼스트 라인 퍼스트 라인
+</p>
+
+<ul>
+  <li>강아지</li>
+  <li>강아지</li>
+  <li>강아지</li>
+  <li>강아지</li>
+  <li>강아지</li>
+  <li>강아지</li>
+</ul>
+
+<input type="text" placeholder="입력">
+
+<p class="content">원래 쓰여있던 내용</p>
+
+</body>
+</html>
